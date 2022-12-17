@@ -11,7 +11,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-    margin-top: 60px;
+    margin-top: 70px;
   }
 
   &__wrapper {
@@ -24,10 +24,15 @@
       justify-content: space-between;
       align-items: center;
       gap: 30px;
+      margin-top: 50px;
 
       @media only screen and (max-width: $tablet-l) {
         justify-content: center;
         flex-wrap: wrap;
+      }
+
+      @media only screen and (max-width: $mobile) {
+        margin-top: 20px;
       }
     }
   }

@@ -631,7 +631,7 @@ body {
 }
 @media only screen and (max-width: 576px) {
   .choose-section {
-    margin-top: 60px;
+    margin-top: 70px;
   }
 }
 .choose-section__wrapper-top {
@@ -642,11 +642,17 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  margin-top: 50px;
 }
 @media only screen and (max-width: 992px) {
   .choose-section__wrapper-bottom {
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .choose-section__wrapper-bottom {
+    margin-top: 20px;
   }
 }
 .choose-section__title {
