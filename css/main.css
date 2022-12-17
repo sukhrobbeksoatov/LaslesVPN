@@ -691,7 +691,7 @@ body {
   .choose-section .choose-plan {
     padding: 30px 15px 15px;
     height: 650px;
-    margin-top: 19px;
+    margin-top: 25px;
   }
 }
 .choose-section .choose-plan:hover {
@@ -703,7 +703,7 @@ body {
   margin-top: 30px;
 }
 .choose-section .choose-plan__list {
-  margin: 30px auto 0;
+  margin: 40px auto 0;
   text-align: left;
 }
 .choose-section .choose-plan__item {
