@@ -1,20 +1,76 @@
 .features-section {
+  margin-top: 95px;
+
+  @media only screen and (max-width: $tablet-l) {
+    margin-top: 75px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    margin-top: 55px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 35px;
+  }
+
   &__wrapper {
     display: flex;
     align-items: center;
     gap: 170px;
     justify-content: space-between;
+
+    @media only screen and (max-width: $tablet-l) {
+      gap: 70px;
+    }
+
+    @media only screen and (max-width: $tablet) {
+      gap: 30px;
+      flex-direction: column;
+    }
+  }
+
+  &__content {
+    width: 40%;
+
+    @media only screen and (max-width: $tablet-l) {
+      width: 45%;
+    }
+
+    @media only screen and (max-width: $tablet) {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   &__title {
     font-size: 35px;
     max-width: 383px;
     margin-bottom: 20px;
+
+    @media only screen and (max-width: $tablet-l) {
+      font-size: 33px;
+      margin-bottom: 18px;
+      max-width: none;
+    }
+
+    @media only screen and (max-width: $tablet) {
+      font-size: 30px;
+      margin-bottom: 13px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      font-size: 26px;
+    }
   }
 
   &__description {
     margin-bottom: 20px;
     max-width: 428px;
+
+    @media only screen and (max-width: $tablet-l) {
+      max-width: none;
+      margin-bottom: 18px;
+    }
   }
 
   &__item {
@@ -32,6 +88,27 @@
 
     &:not(:last-child) {
       margin-bottom: 15px;
+
+      @media only screen and (max-width: $tablet) {
+        margin-bottom: 10px;
+      }
     }
+  }
+
+  &__image {
+    width: 40%;
+
+    @media only screen and (max-width: $tablet-l) {
+      width: 45%;
+    }
+
+    @media only screen and (max-width: $tablet) {
+      width: 70%;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
   }
 }
