@@ -1,0 +1,81 @@
+.choose-section {
+  margin-top: 200px;
+
+  &__wrapper {
+    &-top {
+      text-align: center;
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    max-width: 555px;
+    margin: 0 auto;
+  }
+
+  .choose-plan {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 50px 50px;
+    justify-content: space-between;
+    max-width: 330px;
+    height: 760px;
+    width: 100%;
+    border: 2px solid $lighter-gray;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: border 0.5s ease;
+
+    &:hover {
+      border: 2px solid $red;
+    }
+
+    &__heading {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+
+    &__list {
+      margin: 30px auto 0;
+      text-align: left;
+    }
+
+    &__item {
+      line-height: 2;
+      font-size: 14px;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        background: url(../images/check-plan.svg) no-repeat center;
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+        vertical-align: middle;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__price-text {
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}

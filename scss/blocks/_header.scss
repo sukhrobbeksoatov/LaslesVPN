@@ -1,0 +1,127 @@
+.site-header {
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  background-color: $white;
+  top: 0;
+
+  @media only screen and (max-width: $tablet-l) {
+    position: static;
+    width: auto;
+    background-color: transparent;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $mobile) {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  .logo__img {
+    max-width: 110px;
+  }
+
+  // hamburger
+  #hamburger:checked {
+    + .hamburger-icons {
+      #open {
+        display: none;
+      }
+
+      #close {
+        display: block;
+      }
+    }
+
+    ~ .sitenav .sitenav__list {
+      right: 0;
+    }
+  }
+  #open,
+  #close {
+    position: fixed;
+    top: 17px;
+    right: 10px;
+    font-size: 40px;
+    color: $dark-blue;
+    border-radius: 5px;
+    background-color: $red;
+    z-index: 101;
+    display: none;
+  }
+
+  #open {
+    @media only screen and (max-width: $tablet) {
+      display: block;
+    }
+  }
+
+  .sitenav {
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      @media only screen and (max-width: $tablet) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: -100%;
+        background-color: $dark-blue;
+        padding: 17px 0 0 40px;
+        transition: 1s ease;
+      }
+
+      @media only screen and (max-width: $mobile) {
+        width: 65%;
+      }
+    }
+
+    &__link {
+      color: $gray;
+
+      @media only screen and (max-width: $tablet) {
+        color: $lighter-gray;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__sign-in {
+    font-weight: 500;
+    color: $black;
+    margin-right: 30px;
+
+    @media only screen and (max-width: $tablet-l) {
+      margin-right: 15px;
+    }
+
+    @media only screen and (max-width: $tablet) {
+      margin-right: 10px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      margin-right: 6px;
+    }
+  }
+
+  &__sign-up {
+    @media only screen and (max-width: $tablet) {
+      margin-right: 50px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      margin: 0;
+    }
+  }
+}
