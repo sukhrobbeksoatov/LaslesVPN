@@ -357,4 +357,96 @@ body {
 .hero-section__img {
   width: 100%;
   height: auto;
+}
+
+.statistics-section {
+  margin-top: 100px;
+}
+@media only screen and (max-width: 992px) {
+  .statistics-section {
+    margin-top: 70px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .statistics-section {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .statistics-section {
+    margin-top: 30px;
+  }
+}
+.statistics-section__list {
+  display: flex;
+  align-items: center;
+  padding: 67px 91px;
+  justify-content: space-between;
+  background-color: #dddddd;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .statistics-section__list {
+    padding: 35px 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .statistics-section__list {
+    padding: 25px 50px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .statistics-section__list {
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 25px;
+  }
+}
+.statistics-section__inner {
+  display: flex;
+  align-items: center;
+  gap: 36.5px;
+}
+@media only screen and (max-width: 992px) {
+  .statistics-section__inner {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .statistics-section__inner {
+    gap: 15px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .statistics-section__inner {
+    gap: 25px;
+  }
+}
+.statistics-section__heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 992px) {
+  .statistics-section__heading {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .statistics-section__heading {
+    font-size: 20px;
+  }
+}
+.statistics-section__text {
+  font-size: 20px;
+}
+@media only screen and (max-width: 992px) {
+  .statistics-section__text {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .statistics-section__text {
+    font-size: 17px;
+  }
 }/*# sourceMappingURL=main.css.map */
