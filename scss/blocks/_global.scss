@@ -1,5 +1,6 @@
 .global-section {
   margin-top: 150px;
+  transition: margin 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     margin-top: 100px;
@@ -20,6 +21,7 @@
 
     &-middle {
       margin-top: 135px;
+      transition: margin 0.5s ease;
 
       @media only screen and (max-width: $tablet-l) {
         margin-top: 90px;
@@ -36,6 +38,7 @@
 
     &-bottom {
       margin-top: 30px;
+      transition: margin 0.5s ease;
 
       @media only screen and (max-width: $tablet) {
         margin-top: 20px;
@@ -62,6 +65,7 @@
   &__img {
     width: 100%;
     height: auto;
+    transition: width 0.5s ease;
   }
 
   &__list {
@@ -70,6 +74,7 @@
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    transition: gap 0.5s ease;
 
     @media only screen and (max-width: $tablet-l) {
       gap: 20px;
@@ -81,6 +86,8 @@
   }
 
   &__logo {
+    transition: width 0.5s ease;
+
     @media only screen and (max-width: $tablet) {
       width: 150px;
     }

@@ -51,6 +51,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $gray;
+  transition: font-size 0.5s ease;
 
   @media only screen and (max-width: $tablet) {
     font-size: 15px;
@@ -63,6 +64,7 @@ body {
   width: 100%;
   max-width: $desktop;
   padding: 0 30px;
+  transition: padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     padding: 0 15px;
@@ -110,6 +112,7 @@ body {
   font-size: 16px;
   border-radius: 10px;
   display: inline-block;
+  transition: font-size 0.5s ease, padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     padding: 13px 56px;
@@ -131,6 +134,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   border-radius: 50px;
+  transition: font-size 0.5s ease, padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     padding: 11px 34px;
@@ -153,7 +157,7 @@ body {
   font-size: 16px;
   border-radius: 50px;
   transition: color 0.5s ease, background-color 0.5s ease, opacity 0.5s ease,
-    font-size 0.5s ease;
+    font-size 0.5s ease, padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     padding: 11px 54px;

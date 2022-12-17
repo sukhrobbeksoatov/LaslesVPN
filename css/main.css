@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #4f5665;
+  transition: font-size 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   body {
@@ -55,6 +56,7 @@ body {
   width: 100%;
   max-width: 1200px;
   padding: 0 30px;
+  transition: padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .container {
@@ -101,6 +103,7 @@ body {
   font-size: 16px;
   border-radius: 10px;
   display: inline-block;
+  transition: font-size 0.5s ease, padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .button {
@@ -123,6 +126,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   border-radius: 50px;
+  transition: font-size 0.5s ease, padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .outline-button {
@@ -145,7 +149,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   border-radius: 50px;
-  transition: color 0.5s ease, background-color 0.5s ease, opacity 0.5s ease, font-size 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease, opacity 0.5s ease, font-size 0.5s ease, padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .outline-circle-button {
@@ -244,7 +248,7 @@ body {
     right: -100%;
     background-color: #0b132a;
     padding: 17px 0 0 40px;
-    transition: 1s ease;
+    transition: 1s ease, width 0.5s ease;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -254,6 +258,7 @@ body {
 }
 .site-header .sitenav__link {
   color: #4f5665;
+  transition: font-size 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .site-header .sitenav__link {
@@ -266,6 +271,7 @@ body {
   font-weight: 500;
   color: #000;
   margin-right: 30px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .site-header__sign-in {
@@ -282,6 +288,9 @@ body {
     margin-right: 6px;
   }
 }
+.site-header__sign-up {
+  transition: margin 0.5s ease;
+}
 @media only screen and (max-width: 768px) {
   .site-header__sign-up {
     margin-right: 50px;
@@ -295,6 +304,7 @@ body {
 
 .hero-section {
   margin-top: 130px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .hero-section {
@@ -324,6 +334,7 @@ body {
 }
 .hero-section__content {
   width: 50%;
+  transition: width 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .hero-section__content {
@@ -334,6 +345,7 @@ body {
 .hero-section__title {
   font-size: 50px;
   margin-bottom: 20px;
+  transition: font-size 0.5s ease, margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .hero-section__title {
@@ -352,6 +364,7 @@ body {
 }
 .hero-section__btn {
   margin-top: 50px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .hero-section__btn {
@@ -365,6 +378,7 @@ body {
 }
 .hero-section__image {
   width: 50%;
+  transition: width 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .hero-section__image {
@@ -378,6 +392,7 @@ body {
 
 .statistics-section {
   margin-top: 100px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section {
@@ -401,6 +416,7 @@ body {
   justify-content: space-between;
   background-color: #dddddd;
   border-radius: 10px;
+  transition: padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section__list {
@@ -423,6 +439,7 @@ body {
   display: flex;
   align-items: center;
   gap: 36.5px;
+  transition: gap 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section__inner {
@@ -444,6 +461,7 @@ body {
   font-weight: 700;
   margin-bottom: 5px;
   width: 83px;
+  transition: font-size 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section__heading {
@@ -457,6 +475,7 @@ body {
 }
 .statistics-section__text {
   font-size: 20px;
+  transition: font-size 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section__text {
@@ -471,6 +490,7 @@ body {
 
 .features-section {
   margin-top: 95px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section {
@@ -492,6 +512,7 @@ body {
   align-items: center;
   gap: 170px;
   justify-content: space-between;
+  transition: gap 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section__wrapper {
@@ -506,6 +527,7 @@ body {
 }
 .features-section__content {
   width: 40%;
+  transition: width 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section__content {
@@ -522,6 +544,7 @@ body {
   font-size: 35px;
   max-width: 383px;
   margin-bottom: 20px;
+  transition: font-size 0.5s ease, margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section__title {
@@ -544,6 +567,7 @@ body {
 .features-section__description {
   margin-bottom: 20px;
   max-width: 428px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section__description {
@@ -565,6 +589,7 @@ body {
 }
 .features-section__item:not(:last-child) {
   margin-bottom: 15px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .features-section__item:not(:last-child) {
@@ -573,6 +598,7 @@ body {
 }
 .features-section__image {
   width: 40%;
+  transition: width 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .features-section__image {
@@ -591,6 +617,7 @@ body {
 
 .choose-section {
   margin-top: 200px;
+  transition: margin padding 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .choose-section {
@@ -644,7 +671,7 @@ body {
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
-  transition: border 0.5s ease;
+  transition: border 0.5s ease, padding 0.5s ease, margin 0.5s ease, height 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .choose-section .choose-plan {
@@ -703,6 +730,7 @@ body {
 
 .global-section {
   margin-top: 150px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .global-section {
@@ -724,6 +752,7 @@ body {
 }
 .global-section__wrapper-middle {
   margin-top: 135px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .global-section__wrapper-middle {
@@ -742,6 +771,7 @@ body {
 }
 .global-section__wrapper-bottom {
   margin-top: 30px;
+  transition: margin 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .global-section__wrapper-bottom {
@@ -766,6 +796,7 @@ body {
 .global-section__img {
   width: 100%;
   height: auto;
+  transition: width 0.5s ease;
 }
 .global-section__list {
   display: flex;
@@ -773,6 +804,7 @@ body {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  transition: gap 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .global-section__list {
@@ -783,6 +815,9 @@ body {
   .global-section__list {
     gap: 10px;
   }
+}
+.global-section__logo {
+  transition: width 0.5s ease;
 }
 @media only screen and (max-width: 768px) {
   .global-section__logo {

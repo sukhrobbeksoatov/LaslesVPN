@@ -1,5 +1,6 @@
 .choose-section {
   margin-top: 200px;
+  transition: margin padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
     margin-top: 140px;
@@ -55,7 +56,8 @@
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
-    transition: border 0.5s ease;
+    transition: border 0.5s ease, padding 0.5s ease, margin 0.5s ease,
+      height 0.5s ease;
 
     @media only screen and (max-width: $tablet-l) {
       padding: 50px 30px 30px;
