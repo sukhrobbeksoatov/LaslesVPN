@@ -135,6 +135,11 @@ body {
   @media only screen and (max-width: $tablet-l) {
     padding: 11px 34px;
   }
+
+  @media only screen and (max-width: $tablet) {
+    padding: 9px 27px;
+    font-size: 15px;
+  }
 }
 
 // Outline circle button styles
@@ -147,7 +152,18 @@ body {
   font-weight: 700;
   font-size: 16px;
   border-radius: 50px;
-  transition: color 0.5s ease, background-color 0.5s ease, opacity 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease, opacity 0.5s ease,
+    font-size 0.5s ease;
+
+  @media only screen and (max-width: $tablet-l) {
+    padding: 11px 54px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    padding: 9px 43px;
+    font-size: 15px;
+  }
+
   &:hover {
     background-color: $red;
     color: $white;
