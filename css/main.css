@@ -426,6 +426,7 @@ body {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 5px;
+  width: 83px;
 }
 @media only screen and (max-width: 992px) {
   .statistics-section__heading {
