@@ -1,0 +1,54 @@
+.global-section {
+  margin-top: 150px;
+
+  @media only screen and (max-width: $tablet-l) {
+    margin-top: 100px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    margin-top: 80px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-top: 50px;
+  }
+
+  &__wrapper {
+    &-top {
+      text-align: center;
+    }
+
+    &-middle {
+      margin-top: 135px;
+
+      @media only screen and (max-width: $tablet-l) {
+        margin-top: 90px;
+      }
+
+      @media only screen and (max-width: $tablet) {
+        margin-top: 70px;
+      }
+
+      @media only screen and (max-width: $mobile) {
+        margin-top: 40px;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 35px;
+    margin: 0 auto;
+    max-width: 383px;
+  }
+
+  &__description {
+    max-width: 555px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+}
