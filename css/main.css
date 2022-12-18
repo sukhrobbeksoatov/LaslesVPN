@@ -1074,7 +1074,7 @@ img {
   }
 }
 .customers-section .customers-sliders__btn:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .customers-section .customers-sliders__btn:focus {
   opacity: 0.8;
