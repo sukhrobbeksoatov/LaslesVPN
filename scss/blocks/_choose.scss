@@ -74,7 +74,13 @@
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
-    transition: border 0.5s ease, padding 0.5s ease, height 0.5s ease;
+    transition: border 0.5s ease, padding 0.5s ease, height 0.5s ease,
+      transform 0.5s ease;
+
+    &:hover {
+      border: 2px solid $red;
+      transform: scale(1.05);
+    }
 
     @media only screen and (max-width: $tablet-l) {
       padding: 50px 30px 30px;
@@ -89,10 +95,6 @@
     @media only screen and (max-width: $mobile) {
       padding: 30px 15px 15px;
       height: 650px;
-    }
-
-    &:hover {
-      border: 2px solid $red;
     }
 
     &__img {
