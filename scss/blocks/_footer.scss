@@ -1,0 +1,105 @@
+.footer {
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    @media only screen and (max-width: $tablet) {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  &-info {
+    max-width: 340px;
+
+    @media only screen and (max-width: $tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+
+    strong {
+      font-weight: 500;
+    }
+  }
+
+  &-socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__icons {
+      i {
+        color: $red;
+        background-color: $white;
+        font-size: 40px;
+        transition: color 0.5s ease;
+
+        &:hover {
+          color: $dark-blue;
+        }
+      }
+
+      &:focus i {
+        color: $dark-blue;
+      }
+    }
+  }
+
+  &-copyright {
+    transform: translateY(-60px);
+
+    @media only screen and (max-width: $tablet) {
+      transform: translateY(0);
+      text-align: center;
+    }
+    strong {
+      font-weight: 500;
+    }
+
+    a {
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $dark-blue;
+    }
+  }
+
+  &-nav {
+    display: flex;
+    gap: 126px;
+
+    @media only screen and (max-width: $tablet-l) {
+      gap: 90px;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      flex-direction: column;
+      row-gap: 40px;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      @media only screen and (max-width: $tablet-l) {
+        gap: 10px;
+      }
+
+      @media only screen and (max-width: $mobile) {
+        gap: 3px;
+      }
+    }
+  }
+}
