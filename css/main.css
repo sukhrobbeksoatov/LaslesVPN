@@ -1081,4 +1081,58 @@ img {
 }
 .customers-section .customers-sliders__btn--outline {
   background-color: #fff;
+}
+
+.subscribe-section {
+  padding: 80px 0 65px;
+}
+.subscribe-section__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #dddddd;
+  padding: 70px 60px;
+  transition: padding 0.5s ease;
+}
+@media only screen and (max-width: 992px) {
+  .subscribe-section__wrapper {
+    padding: 60px 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .subscribe-section__wrapper {
+    padding: 40px 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .subscribe-section__wrapper {
+    padding: 30px 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+}
+.subscribe-section__content {
+  max-width: 370px;
+}
+.subscribe-section__title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  transition: font-size 0.5s ease;
+}
+@media only screen and (max-width: 992px) {
+  .subscribe-section__title {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .subscribe-section__title {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .subscribe-section__title {
+    font-size: 22px;
+  }
 }/*# sourceMappingURL=main.css.map */
