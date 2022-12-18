@@ -1,17 +1,17 @@
 .statistics-section {
-  margin-top: 100px;
-  transition: margin 0.5s ease;
+  padding-top: 100px;
+  transition: padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
-    margin-top: 90px;
+    padding-top: 90px;
   }
 
   @media only screen and (max-width: $tablet) {
-    margin-top: 70px;
+    padding-top: 70px;
   }
 
   @media only screen and (max-width: $mobile) {
-    margin-top: 50px;
+    padding-top: 50px;
   }
 
   &__list {

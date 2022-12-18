@@ -1,17 +1,17 @@
 .features-section {
-  margin-top: 95px;
-  transition: margin 0.5s ease;
+  padding-top: 95px;
+  transition: padding 0.5s ease;
 
   @media only screen and (max-width: $tablet-l) {
-    margin-top: 85px;
+    padding-top: 85px;
   }
 
   @media only screen and (max-width: $tablet) {
-    margin-top: 65px;
+    padding-top: 65px;
   }
 
   @media only screen and (max-width: $mobile) {
-    margin-top: 55px;
+    padding-top: 55px;
   }
 
   &__wrapper {
