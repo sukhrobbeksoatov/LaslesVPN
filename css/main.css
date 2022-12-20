@@ -745,7 +745,7 @@ img {
   }
 }
 .choose-section .choose-plan__img {
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
 }
 .choose-section .choose-plan__heading {
   text-align: center;
