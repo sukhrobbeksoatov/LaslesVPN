@@ -40,15 +40,13 @@
     gap: 20px;
 
     &__icons {
-      i {
-        color: $red;
-        background-color: $white;
-        font-size: 40px;
-        transition: color 0.5s ease;
+      color: $red;
+      background-color: $white;
+      font-size: 40px;
+      transition: color 0.5s ease;
 
-        &:hover {
-          color: $dark-blue;
-        }
+      &:hover {
+        color: $dark-blue;
       }
 
       &:focus i {

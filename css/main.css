@@ -1178,13 +1178,13 @@ img {
   align-items: center;
   gap: 20px;
 }
-.footer-socials__icons i {
+.footer-socials__icons {
   color: #f53838;
   background-color: #fff;
   font-size: 40px;
   transition: color 0.5s ease;
 }
-.footer-socials__icons i:hover {
+.footer-socials__icons:hover {
   color: #0b132a;
 }
 .footer-socials__icons:focus i {
