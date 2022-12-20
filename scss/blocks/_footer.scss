@@ -99,5 +99,14 @@
         gap: 3px;
       }
     }
+
+    &__link {
+      color: $gray;
+      transition: color 0.5s ease;
+
+      &:hover {
+        color: $dark-blue;
+      }
+    }
   }
 }

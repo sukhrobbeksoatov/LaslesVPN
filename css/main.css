@@ -1236,4 +1236,11 @@ img {
   .footer-nav__list {
     gap: 3px;
   }
+}
+.footer-nav__link {
+  color: #4f5665;
+  transition: color 0.5s ease;
+}
+.footer-nav__link:hover {
+  color: #0b132a;
 }/*# sourceMappingURL=main.css.map */
